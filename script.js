@@ -47,7 +47,11 @@ function startGame(){
         if (countdown < 0) {
             countdown = 0;
             clearInterval(startCountdown);
-            countdownBoard.textContent = 'Times Up! Thank you for protecting our planet!';
+            if (score > 5){
+                countdownBoard.textContent = 'Times Up! Thank you for protecting our planet!';
+            } else {
+                countdownBoard.textContent = 'Times Up! You failed to save the planet!!';
+            }
         }
     },1000);
 }
