@@ -47,7 +47,7 @@ function startGame(){
         if (countdown < 0) {
             countdown = 0;
             clearInterval(startCountdown);
-            if (score > 5){
+            if (score > 10){
                 countdownBoard.textContent = 'Times Up! Thank you for protecting our planet!';
             } else {
                 countdownBoard.textContent = 'Times Up! You failed to save the planet!!';
