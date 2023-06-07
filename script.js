@@ -20,7 +20,7 @@ function pickRandomHole(holes) {
     return hole; 
 }
 function popOut(){
-    const time = Math.random() * 1300 + 400;
+    const time = Math.random() * 1300 + 500;
     const hole = pickRandomHole(holes);
     hole.classList.add('up');
     setTimeout(function(){
