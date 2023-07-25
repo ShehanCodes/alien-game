@@ -55,7 +55,7 @@ function startGame(){
         }
     },1000);
 }
-
+// g
 startButton.addEventListener('click', startGame);
 
 function whack(e){
