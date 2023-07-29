@@ -9,6 +9,7 @@ let timeUp = false;
 let timeLimit = 20000;
 let score = 0;
 let countdown;
+let n;
 
 function pickRandomHole(holes) {
     const randomHole = Math.floor(Math.random() * holes.length);
