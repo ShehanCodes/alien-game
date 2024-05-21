@@ -19,6 +19,10 @@ Alien Game is a simple web-based whack-a-mole game where players aim to hit appe
 
 - Modern web browser with JavaScript enabled.
 
+## Preview
+- Go to the game website and play!
+- https://alien-game.pages.dev
+
 ## Installation
 
 1. Clone the repository or download the source code.
